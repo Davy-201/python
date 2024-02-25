@@ -1,10 +1,6 @@
-altura = input('digite aqui: ')
-peso = input('digite aqui: ')
-idade = input('digite aqui: ')
-
-altura = float(altura)
-peso = float(peso)
-idade = int(idade)
+altura = float(input('digite aqui sua altura: '))
+peso = float(input('digite aqui seu peso: '))
+idade = int(input('digite aqui sua idade: '))
 
 imc = peso / (altura*altura)
-print(imc)
+print(f1.90"O seu imc é: {imc:.2f}")
